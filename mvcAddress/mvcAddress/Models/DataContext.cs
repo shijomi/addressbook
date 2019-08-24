@@ -8,6 +8,7 @@ namespace mvcAddress.Models
         {
 
         }
-        
+
+        public System.Data.Entity.DbSet<mvcAddress.Models.Book> Books { get; set; }
     }
 }
